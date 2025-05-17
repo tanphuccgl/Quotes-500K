@@ -1,27 +1,79 @@
-# Quotes-500K
 
-Large Dataset on Quotes
+````markdown
+# 📚 500,000+ Inspirational Quotes Dataset (JSON)
 
-Due to the unavailability of publicly available large dataset on Quotes, we prepared a dataset of our own for solving the task of proposing Contextually Relevant Quotes for images rather than just generating ordinary captions. 
+Looking for a high-quality dataset of quotes for your app, AI project, or content automation tool?
 
-For creating this dataset, we used the Python package - BeautifulSoup, to crawl quotes from various popular websites such as https://www.goodreads.com/quotes, https://www.brainyquote.com/ , http://www.famousquotesandauthors.com/ and http://www.curatedquotes.com/. All quotes, except the ones in English, were removed using the Python package - langdetect. 
+This dataset includes over **500,000 carefully collected and cleaned quotes** from multiple public sources. Each entry contains:
+- `quote`: the actual quote text
+- `author`: who said it
+- `category`: thematic tags like life, love, motivation, etc.
 
-The final dataset is offered in csv file format and contains three columns --- the quote, the author of the quote and the category tags for that quote. Examples of tags include --- love, life, philosophy, motivation, family etc. These tags help in describing the various categories that a particular quote belongs to. The total number of quotes in our final dataset after crawling and further cleaning of the dataset was approximately equal to five hundred thousand (500K) quotes. 
+> Perfect for: mobile apps, chatbots, AI training, quote widgets, daily notifications, social media content, and more.
+
+---
+
+## 🗂️ Dataset Format
+
+- Format: `.json`
+- Structure:
+  ```json
+  {
+    "quote": "Be yourself; everyone else is already taken.",
+    "author": "Oscar Wilde",
+    "category": "inspirational, life, self"
+  }
+````
+
+---
+
+## 💬 How was it built?
+
+Quotes were crawled using Python and BeautifulSoup from trusted sources like:
+
+* [goodreads.com](https://www.goodreads.com/quotes)
+* [brainyquote.com](https://www.brainyquote.com/)
+* [famousquotesandauthors.com](http://www.famousquotesandauthors.com/)
+* [curatedquotes.com](http://www.curatedquotes.com/)
+
+We then filtered and cleaned the content (non-English removed via `langdetect`, deduplicated, restructured).
+
+---
+
+## 🔗 Get the Dataset
+
+This dataset is available for a **one-time contribution**.
+
+🎁 **[Buy it on Buy Me a Coffee »](https://buymeacoffee.com/tanphuc/e/410300)**
+
+Once purchased, you’ll receive a direct download link instantly.
+Your support helps me continue building useful tools and resources!
+
+---
+
+## 📸 Preview
 
 <p align="center">
-<img src="DS_Img.png" width="550"/>
+<img src="DS_Img.png" width="500"/>
 </p>
 
-We have made this dataset publicly available, so that it can be used by fellow researchers for educational and research purposes. 
+---
 
-Link to Download Dataset: https://goo.gl/R3Sa34
+## 📌 Terms of Use
 
-<b>Please cite our paper if you wish to use this dataset for your research work.</b>
+* For personal and small-scale commercial use only.
+* Redistribution or resale is **not allowed**.
+* No citation needed – but giving credit is appreciated 💙
 
-Title: Proposing Contextually Relevant Quotes for Images
+---
 
-Authors: Shivali Goel, Rishi Madhok, Shweta Garg
+## 🙏 Support
 
-In proceedings of: 40th European Conference on Information Retreival
+## 🙏 Support
 
-Year: 2018
+If you like this dataset or want to support my work as a mobile developer,  
+you can **[buy me a coffee here »](https://buymeacoffee.com/tanphuc)** ☕  
+Thanks for your support!
+
+
+Thanks for stopping by!
