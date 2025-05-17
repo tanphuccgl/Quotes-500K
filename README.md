@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="logo.png" width="150" alt="Project Logo"/>
+</p>
 
 ````markdown
 # 📚 500,000+ Inspirational Quotes Dataset (JSON)
