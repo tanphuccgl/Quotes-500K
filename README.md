@@ -69,11 +69,7 @@ Your support helps me continue building useful tools and resources!
 
 ## 🙏 Support
 
-## 🙏 Support
-
 If you like this dataset or want to support my work as a mobile developer,  
 you can **[buy me a coffee here »](https://buymeacoffee.com/tanphuc)** ☕  
-Thanks for your support!
-
 
 Thanks for stopping by!
